@@ -31,7 +31,7 @@
       echo "
 
       <h2>".">>".$aluno->getNome()."</h2>
-      <table width='70%' border='1'>
+      <table width='70%' border='8'>
           <tr>
             <td align='center'>Nota 1</td>
             <td align='center'>Nota 2</td>
