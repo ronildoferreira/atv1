@@ -31,7 +31,10 @@
   $aluno5->adicionarDados("Luis Guilherme", "05937582", 9, 8, 8, 6);
 
   $aluno6 = new Aluno();
-  $aluno6->adicionarDados("Aluno que não é para adicionar", "05948364", 7, 8, 8, 6);
+  $aluno6->adicionarDados("Daniel Gonçalves", "09483756", 6, 9, 10, 6);
+  
+  $aluno7 = new Aluno();
+  $aluno7->adicionarDados("Maria Luiza", "94783928", 7, 8, 5, 3);
   
 
   $arrayAlunos = [$aluno1, $aluno2, $aluno3, $aluno4, $aluno5, $aluno6];
@@ -53,4 +56,10 @@
   </div>
   <?php $turma->imprimirTurma(); ?>
  	
+<footer class="footer">
+  <h1>Desenvolvido Por Ronildo Ferreira da Silva</h1>
+  <h1>ronildo.ufpi@gmail.com</h1>
+</footer>
+
+
  </html>
