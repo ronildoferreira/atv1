@@ -1,8 +1,10 @@
 .turma1{
+	
 	background-color: black;
 	border-radius: 14px;
 	color: white;
-	width: 70%;
+	width: 60%;
+	margin-left: 5%;
 	text-align: center;
 }
 .turma2{
@@ -15,6 +17,16 @@
 }
 .erro{
 	color: red;
+}
+
+.media{
+	
+	background-color: black;
+	border-radius: 14px;
+	color: white;
+	width: 60%;
+	margin-left: 5%;
+	text-align: center;
 }
 
 .footer

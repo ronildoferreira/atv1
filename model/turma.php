@@ -24,7 +24,7 @@
                                                
 
     public function imprimirTurma() {
-      echo 'A média da turma é: '.$this->mediaTurma();
+      echo '<div class="media"><h1>A média da turma é: '.$this->mediaTurma().'</h1></div>';
 
       foreach($this->alunos as $aluno) {
       
