@@ -16,9 +16,13 @@
         $this->alunos[$this->qtd] =  $aluno;  
         echo 'O aluno '.$aluno->getNome(). ' foi inserido com sucesso na turma </br>';
         $this->qtd++;
+        return true;
        
       } else {                                
+        
         echo "<div class='erro'>Erro! - Turma Lotada</div>";
+        return false;
+
       }
     }
                                                
